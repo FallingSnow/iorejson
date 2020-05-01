@@ -8,20 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheMrugraj/iorejson.git"
+    "url": "git+https://github.com/evanhuang8/iorejson.git"
   },
   "keywords": [
     "rejson"
   ],
   "author": "Evan Huang <evanhuang8@gmail.com>",
+  "maintainers": [
+    "Ayrton Sparling <ayrton@sparling.us>"
+  ],
   "bugs": {
     "url": "https://github.com/evanhuang8/iorejson/issues"
   },
   "homepage": "https://github.com/evanhuang8/iorejson#readme",
   "license": "MIT",
   "dependencies": {
-    "ioredis": "2.5.x",
-    "lodash": "4.17.x"
+    "ioredis": "^4.16.3",
+    "lodash.map": "^4.6.0"
   },
   "devDependencies": {
     "chai": "3.5.x",
